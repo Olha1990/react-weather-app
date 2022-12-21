@@ -1,4 +1,5 @@
 .Weather {
+  background-color: aquamarine;
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
@@ -47,4 +48,13 @@
   line-height: 1;
   top: -34px;
   margin-left: 0px;
+}
+
+.Weather .form-control {
+  background: linear-gradient(
+    93.1deg,
+    rgb(238, 254, 183) 19.1%,
+    rgb(169, 254, 222) 53.9%,
+    rgb(90, 222, 255) 92%
+  );
 }
